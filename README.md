@@ -1,4 +1,4 @@
-# Rental Invoice Generator CLI App
+# Vehicle Rental System
 
 This Java CLI application calculates and generates a rental invoice for various types of vehicles (car, motorcycle, and cargo van) based on predefined business rules. The invoice is generated automatically at the time of returning the rented vehicle without requiring user input during the interaction.
 

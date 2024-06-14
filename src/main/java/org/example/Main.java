@@ -18,7 +18,7 @@ public class Main {
                 LocalDate.of(2024, 6, 3),
                 LocalDate.of(2024, 6, 13));
         motorcycleReservation.setReturned(LocalDate.of(2024, 6, 13));
-        var motorcycle = new Motorcycle("Triumph", "Tiger Sport 660", 10_000, motorcycleReservation, 23);
+        var motorcycle = new Motorcycle("Triumph", "Tiger Sport 660", 10_000, motorcycleReservation, 20);
         var motorcycleInvoice = new Invoice(motorcycle, "Mary Johnson");
         motorcycleInvoice.createInvoice();
 

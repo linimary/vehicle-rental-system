@@ -26,7 +26,7 @@ public class Car extends Vehicle {
 
     @Override
     public double difference() {
-        return (safetyRating >= 4) ? getDailyInsuranceRate() * 0.9 : 0;
+        return (safetyRating >= 4) ? getDailyInsuranceRate() * 0.1 : 0;
     }
 
     @Override
